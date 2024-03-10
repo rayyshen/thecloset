@@ -10,7 +10,7 @@ import {
 
 export default function Cards() {
     return (
-        <main className="flex flex-wrap md:flex-nowrap justify-center mb-10 space-x-7">
+        <div className="flex flex-auto content-center justify-center  space-y-5 md:space-y-0 flex-col md:flex-row md:mb-10 md:space-x-7">
             <Card className="w-[350px]">
                 <CardHeader><CardTitle>Shop at the Closet</CardTitle></CardHeader>
                 <CardContent>
@@ -34,6 +34,6 @@ export default function Cards() {
                     <p>Everything which The Closet sells is donated to us, so we rely upon your donations to keep the store stocked with high quality merchandise.  Whether it’s last year’s outfit which your child has outgrown, or a good quality kitchen appliance you have replaced, or a set of dishes you won’t need in the new house, consider bringing it to The Closet.  See our donations page <a href="/donate" className="underline">How to Donate Goods for more information.</a></p>
                 </CardContent>
             </Card>
-        </main>
+        </div>
     )
 }
