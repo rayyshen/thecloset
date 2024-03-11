@@ -17,9 +17,9 @@ export default function Cards() {
                     <p>Whether you are looking for great prices, a great selection, or amazing unique items, there’s nowhere better to shop than at The Closet.  We do have sales periodically, but with our everyday low prices you don’t need sales to get a bargain when you shop at The Closet. </p>
                 </CardContent>
                 <CardFooter>
-                    Our shopping hours are <br/> Monday – Saturday 10am – 5pm
+                    Our shopping hours are <br /> Monday – Saturday 10am – 5pm
 
-                    plus <br/> Monday and Thursday 5pm – 8pm.
+                    <br /> Monday and Thursday 5pm – 8pm.
                 </CardFooter>
             </Card>
             <Card className="w-fit md:w-[400px] mx-5 md:mx-0">
@@ -33,6 +33,13 @@ export default function Cards() {
                 <CardContent>
                     <p>Everything which The Closet sells is donated to us, so we rely upon your donations to keep the store stocked with high quality merchandise.  Whether it’s last year’s outfit which your child has outgrown, or a good quality kitchen appliance you have replaced, or a set of dishes you won’t need in the new house, consider bringing it to The Closet.  See our donations page <a href="/donate" className="underline">How to Donate Goods for more information.</a></p>
                 </CardContent>
+                <CardFooter>
+                    Our donation hours are <br/> Monday – Wednesday 8am – 12pm
+
+                    <br/> Friday – Saturday 8am – 12pm
+
+                    <br/> No donations on Thursdays or Sundays
+                </CardFooter>
             </Card>
         </div>
     )
