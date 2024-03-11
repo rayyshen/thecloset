@@ -24,7 +24,7 @@ export default function SiteHeader({ children }: PropsWithChildren) {
                         width={0}
                         alt="Logo"
                         sizes="70vw"
-                        style={{ width: '100%', height: 'auto' }}
+                        style={{ width: '100%', height: 'auto'}}
                         />
 
                     </a>
